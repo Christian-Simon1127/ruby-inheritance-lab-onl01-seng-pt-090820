@@ -7,9 +7,12 @@ class Student < User
     @knowledge = []
   end
   
+  def learn(material) 
+    @knowledge << material
+  end
   
-  
-  
-  
+  def knowledge
+    @knowledge
+  end
   
 end
